@@ -1,0 +1,18 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import {useEffect, useMemo, useState} from "react";
+
+export function useIsInViewport(ref: any) {
+  const [isIntersecting, setIsIntersecting] = useState<boolean>(false);
+
+  const observer = useMemo(() => new IntersectionObserver(([entry]) => setIsIntersecting(entry.isIntersecting)), []);
+
+  useEffect(() => {
+    observer.observe(ref.current);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, [ref, observer]);
+
+  return isIntersecting;
+}

@@ -1,0 +1,937 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* zingvel_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* zingvel_appTests.m */; };
+		022DA03B8F92464C844EFA8D /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9872EC19E9D4C53A3B86CB1 /* Roboto-BoldItalic.ttf */; };
+		02CC611A331A42A6A2B60F2E /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCB6C322AFB047A4BF20F5DE /* EvilIcons.ttf */; };
+		0A5A10C56C934A99AB0AEE9F /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3B7500E46444AD8A010B874 /* Lato-Black.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-zingvel_app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-zingvel_app.a */; };
+		0D5A70AD6A5441CE81D0E05A /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F59EF77F6BEF4FACA9D323A7 /* Poppins-ExtraLightItalic.ttf */; };
+		11E9576169A847208CA3F823 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58DC0DF73C1F47D7AEEF89BC /* MaterialIcons.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2256D6BA37D84B0BB11B8D09 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7EA55CB2BA4490599DCBDC7 /* FontAwesome5_Brands.ttf */; };
+		3C87B89877E44F42924AF80C /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE723C62C0A64FCD95E89B19 /* Octicons.ttf */; };
+		41002C55B9824050B21430DA /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97134621FCE644ADB1EF47FE /* Poppins-Thin.ttf */; };
+		424638E86A39450CBC86B751 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A96E333CF504AD583432191 /* Poppins-SemiBoldItalic.ttf */; };
+		42B36C8C483F4178A72F27BC /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21E59570DAEF494E881C967C /* Poppins-Italic.ttf */; };
+		43850F2ED44741FEA58C2E82 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76CEEBD5667B4C98BEB64CD9 /* Roboto-Bold.ttf */; };
+		4A4AFD2AA7834603BE9A141C /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95100C76D24E4DF388573DE0 /* SimpleLineIcons.ttf */; };
+		552C6F33561E45EEB6C255A6 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EE95ED4296340388F11E82A /* Poppins-ExtraBoldItalic.ttf */; };
+		55F30E1978E347CDBBEBFA89 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0321859BE23D4119A46EA30D /* Poppins-Black.ttf */; };
+		56398BF4A04949EFAC733673 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D5587B46DC5420590CF50C7 /* Roboto-Light.ttf */; };
+		5FDC741D61C7456B8960AF75 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED30D8644BC746FEB5A33B44 /* Roboto-ThinItalic.ttf */; };
+		612FE09612D04B698A07A7D5 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 237AC178263F4843BFAFBAFC /* MaterialCommunityIcons.ttf */; };
+		665478068ED043D0A56EA02B /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D024112ED884F578DF9DBF2 /* Foundation.ttf */; };
+		6753272F22D94F58B70D1B1D /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2033A06361F94F07A3C7D083 /* Poppins-LightItalic.ttf */; };
+		67C3A3F7DD4A4C728A11909D /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61E2833D9A2342C8A7CC45CC /* Lato-ThinItalic.ttf */; };
+		67E0D5308D344037AD847DDB /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD98447DE7F94ED786B7E63D /* Lato-BlackItalic.ttf */; };
+		68A7BD044A73483CBF6C5C20 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44B811D0082F4F80AD56A421 /* Lato-Italic.ttf */; };
+		6D29BB0DB97D401D9376C4FD /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05B1716CA5C94B5ABE5B640B /* Lato-Regular.ttf */; };
+		70B63ED7D05A4E5E881B53E5 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC52D21D6BAD4693BBEBBBE5 /* Zocial.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-zingvel_app-zingvel_appTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-zingvel_app-zingvel_appTests.a */; };
+		777BED720C8249B497F04B4F /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D590A6F86CE34D429FA4229E /* AntDesign.ttf */; };
+		785C01BCC4E54CDF8DA274C6 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 183BE875C0144AAFADFF486E /* Poppins-SemiBold.ttf */; };
+		7B73D95260DF4647B96D47D5 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDE5F2F78FB3432E8CA631FB /* Lato-Light.ttf */; };
+		7CEBB3F1CAA3422EAE831FF7 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AD8CBA029064888AD822AAF /* FontAwesome5_Solid.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		86B101D917934C6EA6300739 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8096E53C3C55497980D25F56 /* Feather.ttf */; };
+		8D0CD25DC8C142EA862AAEA0 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3E7FACB90904FC5B3D4ABF1 /* Poppins-ThinItalic.ttf */; };
+		90148C9422AC45ED8C413AA1 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB095BCCB1348EEA5C2ED92 /* Lato-Bold.ttf */; };
+		91825A49238A4D0A8A31729E /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64BB34CB29594DFEBA0B631E /* Roboto-Thin.ttf */; };
+		92AFAE3631644BEB8919B15D /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A05EB955E36462AAD3AAAFF /* Poppins-Regular.ttf */; };
+		9B75FD728D6F4B37860A9E42 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4EECF1D829146429C4A9248 /* Poppins-MediumItalic.ttf */; };
+		9DD507EE861147A298F945D4 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 613AB13B1F434D2CAFF0341F /* Roboto-MediumItalic.ttf */; };
+		A12296192AE04B20BFD5FAD9 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98481D08141F4F5CABA8F564 /* Roboto-Italic.ttf */; };
+		AD034AA71EDD4E13A33BCEDA /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBDAF198F6714054B96E2F25 /* Roboto-Regular.ttf */; };
+		B283307E43884959BBE63863 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94E27E0C1A6B4EB59C6CCA9F /* Poppins-ExtraLight.ttf */; };
+		B3F4BED4B37F4811B9F0F712 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5E66B4BF5324389A5AB4CBD /* Poppins-BoldItalic.ttf */; };
+		B404539C9ACC40B49EFB0E20 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D679CBAF02444BBFAF4CF8ED /* Fontisto.ttf */; };
+		CC6F540161C54B91AF6F7A55 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 226EDF0C5B174C9AAB3801D4 /* Lato-BoldItalic.ttf */; };
+		CE2B8473E9D543F1BD42D9A6 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61E8383A4433446681851755 /* Entypo.ttf */; };
+		D11E5BC10D0145EAB730018E /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8A6A0D4BF9947948CDC0EFF /* Roboto-LightItalic.ttf */; };
+		DC52CE372C974E0784482015 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90CEEEDEACB84C1C9C604680 /* Roboto-Black.ttf */; };
+		DFFE1099AC03424A9912A097 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1D8A52477504D4AB64629AE /* Poppins-ExtraBold.ttf */; };
+		E350A90279984CB5A435606C /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6F6928A08CE4F31A192FDDC /* Ionicons.ttf */; };
+		E7DF7A7848394E089DFD458A /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E23274BE8344599A75B30B7 /* Poppins-Bold.ttf */; };
+		E8980BAAF58F4F47BC9DF59F /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D878F1B9D3AE4D2D832AE034 /* FontAwesome.ttf */; };
+		EBA4048F27CC4244A5185523 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A015A7BF696446793D0E9F9 /* Roboto-BlackItalic.ttf */; };
+		ED6C69EA2F3E4708BD67BAFF /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6A99A974A42477EBB7C95BC /* Poppins-BlackItalic.ttf */; };
+		EF69B3369D4447A3B06E12C2 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 943849A9E443484AA3DCB0C4 /* Poppins-Medium.ttf */; };
+		EFEA24E537C74134B8034EDC /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6F6BC6FAEE489EA983C514 /* Lato-LightItalic.ttf */; };
+		F4107517B7CC4F63A489802F /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E69EF0320EDA4442B0BE073C /* Lato-Thin.ttf */; };
+		F8137BEDF0274612A59ED630 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC38BAC0E0274AD4B9F84FF4 /* Poppins-Light.ttf */; };
+		F979656935994A5488B57BE1 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52332E646A2A418EB10AAF5D /* Roboto-Medium.ttf */; };
+		FDD325F6D04848F097D57296 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A95B9C52D91246BCB040B558 /* FontAwesome5_Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = zingvel_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* zingvel_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zingvel_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* zingvel_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zingvel_appTests.m; sourceTree = "<group>"; };
+		0321859BE23D4119A46EA30D /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../src/assets/fonts/poppins/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		05B1716CA5C94B5ABE5B640B /* Lato-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Regular.ttf"; path = "../src/assets/fonts/lato/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		0E23274BE8344599A75B30B7 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* zingvel_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zingvel_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = zingvel_app/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = zingvel_app/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = zingvel_app/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = zingvel_app/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = zingvel_app/main.m; sourceTree = "<group>"; };
+		183BE875C0144AAFADFF486E /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-zingvel_app-zingvel_appTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zingvel_app-zingvel_appTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6F6BC6FAEE489EA983C514 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-LightItalic.ttf"; path = "../src/assets/fonts/lato/Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		2033A06361F94F07A3C7D083 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../src/assets/fonts/poppins/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		21E59570DAEF494E881C967C /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.ttf"; path = "../src/assets/fonts/poppins/Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		226EDF0C5B174C9AAB3801D4 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-BoldItalic.ttf"; path = "../src/assets/fonts/lato/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		237AC178263F4843BFAFBAFC /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = ../src/assets/fonts/icons/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-zingvel_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zingvel_app.debug.xcconfig"; path = "Target Support Files/Pods-zingvel_app/Pods-zingvel_app.debug.xcconfig"; sourceTree = "<group>"; };
+		44B811D0082F4F80AD56A421 /* Lato-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Italic.ttf"; path = "../src/assets/fonts/lato/Lato-Italic.ttf"; sourceTree = "<group>"; };
+		4A015A7BF696446793D0E9F9 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../src/assets/fonts/roboto/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4A05EB955E36462AAD3AAAFF /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		52332E646A2A418EB10AAF5D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/roboto/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-zingvel_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zingvel_app.release.xcconfig"; path = "Target Support Files/Pods-zingvel_app/Pods-zingvel_app.release.xcconfig"; sourceTree = "<group>"; };
+		58DC0DF73C1F47D7AEEF89BC /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = ../src/assets/fonts/icons/MaterialIcons.ttf; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-zingvel_app-zingvel_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zingvel_app-zingvel_appTests.debug.xcconfig"; path = "Target Support Files/Pods-zingvel_app-zingvel_appTests/Pods-zingvel_app-zingvel_appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-zingvel_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zingvel_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		613AB13B1F434D2CAFF0341F /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../src/assets/fonts/roboto/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		61E2833D9A2342C8A7CC45CC /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-ThinItalic.ttf"; path = "../src/assets/fonts/lato/Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		61E8383A4433446681851755 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = ../src/assets/fonts/icons/Entypo.ttf; sourceTree = "<group>"; };
+		64BB34CB29594DFEBA0B631E /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/roboto/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		76CEEBD5667B4C98BEB64CD9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		7AD8CBA029064888AD822AAF /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = ../src/assets/fonts/icons/FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		8096E53C3C55497980D25F56 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = ../src/assets/fonts/icons/Feather.ttf; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = zingvel_app/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-zingvel_app-zingvel_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zingvel_app-zingvel_appTests.release.xcconfig"; path = "Target Support Files/Pods-zingvel_app-zingvel_appTests/Pods-zingvel_app-zingvel_appTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A96E333CF504AD583432191 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../src/assets/fonts/poppins/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		8D024112ED884F578DF9DBF2 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = ../src/assets/fonts/icons/Foundation.ttf; sourceTree = "<group>"; };
+		8EE95ED4296340388F11E82A /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/poppins/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		90CEEEDEACB84C1C9C604680 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/roboto/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		943849A9E443484AA3DCB0C4 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		94E27E0C1A6B4EB59C6CCA9F /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../src/assets/fonts/poppins/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		95100C76D24E4DF388573DE0 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = ../src/assets/fonts/icons/SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		97134621FCE644ADB1EF47FE /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../src/assets/fonts/poppins/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		98481D08141F4F5CABA8F564 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../src/assets/fonts/roboto/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		9D5587B46DC5420590CF50C7 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		A3E7FACB90904FC5B3D4ABF1 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../src/assets/fonts/poppins/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A4EECF1D829146429C4A9248 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../src/assets/fonts/poppins/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A95B9C52D91246BCB040B558 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = ../src/assets/fonts/icons/FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		AD98447DE7F94ED786B7E63D /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-BlackItalic.ttf"; path = "../src/assets/fonts/lato/Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		AE723C62C0A64FCD95E89B19 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = ../src/assets/fonts/icons/Octicons.ttf; sourceTree = "<group>"; };
+		B1D8A52477504D4AB64629AE /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../src/assets/fonts/poppins/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C7EA55CB2BA4490599DCBDC7 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = ../src/assets/fonts/icons/FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		CBB095BCCB1348EEA5C2ED92 /* Lato-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Bold.ttf"; path = "../src/assets/fonts/lato/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		CC38BAC0E0274AD4B9F84FF4 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/poppins/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		D590A6F86CE34D429FA4229E /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = ../src/assets/fonts/icons/AntDesign.ttf; sourceTree = "<group>"; };
+		D679CBAF02444BBFAF4CF8ED /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = ../src/assets/fonts/icons/Fontisto.ttf; sourceTree = "<group>"; };
+		D878F1B9D3AE4D2D832AE034 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = ../src/assets/fonts/icons/FontAwesome.ttf; sourceTree = "<group>"; };
+		DBDAF198F6714054B96E2F25 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		E3B7500E46444AD8A010B874 /* Lato-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Black.ttf"; path = "../src/assets/fonts/lato/Lato-Black.ttf"; sourceTree = "<group>"; };
+		E5E66B4BF5324389A5AB4CBD /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../src/assets/fonts/poppins/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E69EF0320EDA4442B0BE073C /* Lato-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Thin.ttf"; path = "../src/assets/fonts/lato/Lato-Thin.ttf"; sourceTree = "<group>"; };
+		E6A99A974A42477EBB7C95BC /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../src/assets/fonts/poppins/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E6F6928A08CE4F31A192FDDC /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = ../src/assets/fonts/icons/Ionicons.ttf; sourceTree = "<group>"; };
+		E9872EC19E9D4C53A3B86CB1 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../src/assets/fonts/roboto/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED30D8644BC746FEB5A33B44 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../src/assets/fonts/roboto/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		EDE5F2F78FB3432E8CA631FB /* Lato-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Light.ttf"; path = "../src/assets/fonts/lato/Lato-Light.ttf"; sourceTree = "<group>"; };
+		F59EF77F6BEF4FACA9D323A7 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../src/assets/fonts/poppins/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		F8A6A0D4BF9947948CDC0EFF /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../src/assets/fonts/roboto/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		FC52D21D6BAD4693BBEBBBE5 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = ../src/assets/fonts/icons/Zocial.ttf; sourceTree = "<group>"; };
+		FCB6C322AFB047A4BF20F5DE /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = ../src/assets/fonts/icons/EvilIcons.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-zingvel_app-zingvel_appTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-zingvel_app.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* zingvel_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* zingvel_appTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = zingvel_appTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* zingvel_app */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = zingvel_app;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-zingvel_app.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-zingvel_app-zingvel_appTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* zingvel_app */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* zingvel_appTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				FA0E2F7195D7466D9B271717 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* zingvel_app.app */,
+				00E356EE1AD99517003FC87E /* zingvel_appTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-zingvel_app.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-zingvel_app.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-zingvel_app-zingvel_appTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-zingvel_app-zingvel_appTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA0E2F7195D7466D9B271717 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D590A6F86CE34D429FA4229E /* AntDesign.ttf */,
+				61E8383A4433446681851755 /* Entypo.ttf */,
+				FCB6C322AFB047A4BF20F5DE /* EvilIcons.ttf */,
+				8096E53C3C55497980D25F56 /* Feather.ttf */,
+				D878F1B9D3AE4D2D832AE034 /* FontAwesome.ttf */,
+				C7EA55CB2BA4490599DCBDC7 /* FontAwesome5_Brands.ttf */,
+				A95B9C52D91246BCB040B558 /* FontAwesome5_Regular.ttf */,
+				7AD8CBA029064888AD822AAF /* FontAwesome5_Solid.ttf */,
+				D679CBAF02444BBFAF4CF8ED /* Fontisto.ttf */,
+				8D024112ED884F578DF9DBF2 /* Foundation.ttf */,
+				E6F6928A08CE4F31A192FDDC /* Ionicons.ttf */,
+				237AC178263F4843BFAFBAFC /* MaterialCommunityIcons.ttf */,
+				58DC0DF73C1F47D7AEEF89BC /* MaterialIcons.ttf */,
+				AE723C62C0A64FCD95E89B19 /* Octicons.ttf */,
+				95100C76D24E4DF388573DE0 /* SimpleLineIcons.ttf */,
+				FC52D21D6BAD4693BBEBBBE5 /* Zocial.ttf */,
+				E3B7500E46444AD8A010B874 /* Lato-Black.ttf */,
+				AD98447DE7F94ED786B7E63D /* Lato-BlackItalic.ttf */,
+				CBB095BCCB1348EEA5C2ED92 /* Lato-Bold.ttf */,
+				226EDF0C5B174C9AAB3801D4 /* Lato-BoldItalic.ttf */,
+				44B811D0082F4F80AD56A421 /* Lato-Italic.ttf */,
+				EDE5F2F78FB3432E8CA631FB /* Lato-Light.ttf */,
+				1B6F6BC6FAEE489EA983C514 /* Lato-LightItalic.ttf */,
+				05B1716CA5C94B5ABE5B640B /* Lato-Regular.ttf */,
+				E69EF0320EDA4442B0BE073C /* Lato-Thin.ttf */,
+				61E2833D9A2342C8A7CC45CC /* Lato-ThinItalic.ttf */,
+				0321859BE23D4119A46EA30D /* Poppins-Black.ttf */,
+				E6A99A974A42477EBB7C95BC /* Poppins-BlackItalic.ttf */,
+				0E23274BE8344599A75B30B7 /* Poppins-Bold.ttf */,
+				E5E66B4BF5324389A5AB4CBD /* Poppins-BoldItalic.ttf */,
+				B1D8A52477504D4AB64629AE /* Poppins-ExtraBold.ttf */,
+				8EE95ED4296340388F11E82A /* Poppins-ExtraBoldItalic.ttf */,
+				94E27E0C1A6B4EB59C6CCA9F /* Poppins-ExtraLight.ttf */,
+				F59EF77F6BEF4FACA9D323A7 /* Poppins-ExtraLightItalic.ttf */,
+				21E59570DAEF494E881C967C /* Poppins-Italic.ttf */,
+				CC38BAC0E0274AD4B9F84FF4 /* Poppins-Light.ttf */,
+				2033A06361F94F07A3C7D083 /* Poppins-LightItalic.ttf */,
+				943849A9E443484AA3DCB0C4 /* Poppins-Medium.ttf */,
+				A4EECF1D829146429C4A9248 /* Poppins-MediumItalic.ttf */,
+				4A05EB955E36462AAD3AAAFF /* Poppins-Regular.ttf */,
+				183BE875C0144AAFADFF486E /* Poppins-SemiBold.ttf */,
+				8A96E333CF504AD583432191 /* Poppins-SemiBoldItalic.ttf */,
+				97134621FCE644ADB1EF47FE /* Poppins-Thin.ttf */,
+				A3E7FACB90904FC5B3D4ABF1 /* Poppins-ThinItalic.ttf */,
+				90CEEEDEACB84C1C9C604680 /* Roboto-Black.ttf */,
+				4A015A7BF696446793D0E9F9 /* Roboto-BlackItalic.ttf */,
+				76CEEBD5667B4C98BEB64CD9 /* Roboto-Bold.ttf */,
+				E9872EC19E9D4C53A3B86CB1 /* Roboto-BoldItalic.ttf */,
+				98481D08141F4F5CABA8F564 /* Roboto-Italic.ttf */,
+				9D5587B46DC5420590CF50C7 /* Roboto-Light.ttf */,
+				F8A6A0D4BF9947948CDC0EFF /* Roboto-LightItalic.ttf */,
+				52332E646A2A418EB10AAF5D /* Roboto-Medium.ttf */,
+				613AB13B1F434D2CAFF0341F /* Roboto-MediumItalic.ttf */,
+				DBDAF198F6714054B96E2F25 /* Roboto-Regular.ttf */,
+				64BB34CB29594DFEBA0B631E /* Roboto-Thin.ttf */,
+				ED30D8644BC746FEB5A33B44 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* zingvel_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "zingvel_appTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = zingvel_appTests;
+			productName = zingvel_appTests;
+			productReference = 00E356EE1AD99517003FC87E /* zingvel_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* zingvel_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "zingvel_app" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zingvel_app;
+			productName = zingvel_app;
+			productReference = 13B07F961A680F5B00A75B9A /* zingvel_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "zingvel_app" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* zingvel_app */,
+				00E356ED1AD99517003FC87E /* zingvel_appTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				777BED720C8249B497F04B4F /* AntDesign.ttf in Resources */,
+				CE2B8473E9D543F1BD42D9A6 /* Entypo.ttf in Resources */,
+				02CC611A331A42A6A2B60F2E /* EvilIcons.ttf in Resources */,
+				86B101D917934C6EA6300739 /* Feather.ttf in Resources */,
+				E8980BAAF58F4F47BC9DF59F /* FontAwesome.ttf in Resources */,
+				2256D6BA37D84B0BB11B8D09 /* FontAwesome5_Brands.ttf in Resources */,
+				FDD325F6D04848F097D57296 /* FontAwesome5_Regular.ttf in Resources */,
+				7CEBB3F1CAA3422EAE831FF7 /* FontAwesome5_Solid.ttf in Resources */,
+				B404539C9ACC40B49EFB0E20 /* Fontisto.ttf in Resources */,
+				665478068ED043D0A56EA02B /* Foundation.ttf in Resources */,
+				E350A90279984CB5A435606C /* Ionicons.ttf in Resources */,
+				612FE09612D04B698A07A7D5 /* MaterialCommunityIcons.ttf in Resources */,
+				11E9576169A847208CA3F823 /* MaterialIcons.ttf in Resources */,
+				3C87B89877E44F42924AF80C /* Octicons.ttf in Resources */,
+				4A4AFD2AA7834603BE9A141C /* SimpleLineIcons.ttf in Resources */,
+				70B63ED7D05A4E5E881B53E5 /* Zocial.ttf in Resources */,
+				0A5A10C56C934A99AB0AEE9F /* Lato-Black.ttf in Resources */,
+				67E0D5308D344037AD847DDB /* Lato-BlackItalic.ttf in Resources */,
+				90148C9422AC45ED8C413AA1 /* Lato-Bold.ttf in Resources */,
+				CC6F540161C54B91AF6F7A55 /* Lato-BoldItalic.ttf in Resources */,
+				68A7BD044A73483CBF6C5C20 /* Lato-Italic.ttf in Resources */,
+				7B73D95260DF4647B96D47D5 /* Lato-Light.ttf in Resources */,
+				EFEA24E537C74134B8034EDC /* Lato-LightItalic.ttf in Resources */,
+				6D29BB0DB97D401D9376C4FD /* Lato-Regular.ttf in Resources */,
+				F4107517B7CC4F63A489802F /* Lato-Thin.ttf in Resources */,
+				67C3A3F7DD4A4C728A11909D /* Lato-ThinItalic.ttf in Resources */,
+				55F30E1978E347CDBBEBFA89 /* Poppins-Black.ttf in Resources */,
+				ED6C69EA2F3E4708BD67BAFF /* Poppins-BlackItalic.ttf in Resources */,
+				E7DF7A7848394E089DFD458A /* Poppins-Bold.ttf in Resources */,
+				B3F4BED4B37F4811B9F0F712 /* Poppins-BoldItalic.ttf in Resources */,
+				DFFE1099AC03424A9912A097 /* Poppins-ExtraBold.ttf in Resources */,
+				552C6F33561E45EEB6C255A6 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				B283307E43884959BBE63863 /* Poppins-ExtraLight.ttf in Resources */,
+				0D5A70AD6A5441CE81D0E05A /* Poppins-ExtraLightItalic.ttf in Resources */,
+				42B36C8C483F4178A72F27BC /* Poppins-Italic.ttf in Resources */,
+				F8137BEDF0274612A59ED630 /* Poppins-Light.ttf in Resources */,
+				6753272F22D94F58B70D1B1D /* Poppins-LightItalic.ttf in Resources */,
+				EF69B3369D4447A3B06E12C2 /* Poppins-Medium.ttf in Resources */,
+				9B75FD728D6F4B37860A9E42 /* Poppins-MediumItalic.ttf in Resources */,
+				92AFAE3631644BEB8919B15D /* Poppins-Regular.ttf in Resources */,
+				785C01BCC4E54CDF8DA274C6 /* Poppins-SemiBold.ttf in Resources */,
+				424638E86A39450CBC86B751 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				41002C55B9824050B21430DA /* Poppins-Thin.ttf in Resources */,
+				8D0CD25DC8C142EA862AAEA0 /* Poppins-ThinItalic.ttf in Resources */,
+				DC52CE372C974E0784482015 /* Roboto-Black.ttf in Resources */,
+				EBA4048F27CC4244A5185523 /* Roboto-BlackItalic.ttf in Resources */,
+				43850F2ED44741FEA58C2E82 /* Roboto-Bold.ttf in Resources */,
+				022DA03B8F92464C844EFA8D /* Roboto-BoldItalic.ttf in Resources */,
+				A12296192AE04B20BFD5FAD9 /* Roboto-Italic.ttf in Resources */,
+				56398BF4A04949EFAC733673 /* Roboto-Light.ttf in Resources */,
+				D11E5BC10D0145EAB730018E /* Roboto-LightItalic.ttf in Resources */,
+				F979656935994A5488B57BE1 /* Roboto-Medium.ttf in Resources */,
+				9DD507EE861147A298F945D4 /* Roboto-MediumItalic.ttf in Resources */,
+				AD034AA71EDD4E13A33BCEDA /* Roboto-Regular.ttf in Resources */,
+				91825A49238A4D0A8A31729E /* Roboto-Thin.ttf in Resources */,
+				5FDC741D61C7456B8960AF75 /* Roboto-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zingvel_app/Pods-zingvel_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zingvel_app/Pods-zingvel_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zingvel_app/Pods-zingvel_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zingvel_app-zingvel_appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zingvel_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zingvel_app-zingvel_appTests/Pods-zingvel_app-zingvel_appTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zingvel_app-zingvel_appTests/Pods-zingvel_app-zingvel_appTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zingvel_app-zingvel_appTests/Pods-zingvel_app-zingvel_appTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zingvel_app/Pods-zingvel_app-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zingvel_app/Pods-zingvel_app-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zingvel_app/Pods-zingvel_app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zingvel_app-zingvel_appTests/Pods-zingvel_app-zingvel_appTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zingvel_app-zingvel_appTests/Pods-zingvel_app-zingvel_appTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zingvel_app-zingvel_appTests/Pods-zingvel_app-zingvel_appTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* zingvel_appTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* zingvel_app */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-zingvel_app-zingvel_appTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = zingvel_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zingvel_app.app/zingvel_app";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-zingvel_app-zingvel_appTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = zingvel_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zingvel_app.app/zingvel_app";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-zingvel_app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = zingvel_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = zingvel_app;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-zingvel_app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = zingvel_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = zingvel_app;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "zingvel_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "zingvel_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "zingvel_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
